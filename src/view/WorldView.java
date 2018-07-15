@@ -104,7 +104,6 @@ public class WorldView extends JFrame {
             scrWordMapPanel.repaint();
             wmPanel.setFocusable(true);
             wmPanel.requestFocusInWindow();
-
         });
 
         btSave.addActionListener((ActionEvent e) -> {
@@ -262,7 +261,6 @@ public class WorldView extends JFrame {
         }
 
         @Override
-
         public Dimension getPreferredSize() {
             return new Dimension(pref_size_w, pref_size_h);
         }
